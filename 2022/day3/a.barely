@@ -1,0 +1,40 @@
+define main = function(arguments: **, argument_count: whole_8) {
+    variable input_file = *.>(+(arguments, 8));
+    variable allocator = BrkAllocator();
+    variable contents = read_file(input_file, &(allocator));
+
+    variable contents_pointer = contents;
+
+    variable current_total = 0;
+
+    variable array = String.split_to_array(&(contents), &(allocator), ASCII.NEWLINE);
+    variable i = 0;
+    while <(i, StringArray.length(&(array))) {
+        variable item = StringArray.get(&(array), i);
+        variable length = String.length(&(item));
+
+        variable j = 0;
+        while <(j, /(length, 2)) {
+            variable k = 0;
+            while <(k, /(length, 2)) {
+                if =(String.get(&(item), j), String.get(&(item), +(k, /(length, 2)))) {
+                    variable thing = whole_1_to_whole_8(whole_1.cast(String.get(&(item), j)));
+                    if <(thing, 91) {
+                        current_total = +(current_total, +(-(thing, 65), 27));
+                    } else {
+                        current_total = +(current_total, +(-(thing, 97), 1));
+                    };
+                    k = 999;
+                    j = 999;
+                };
+
+                k = +(k, 1);
+            };
+            j = +(j, 1);
+        };
+
+        i = +(i, 1);
+    };
+
+    println_whole_8(current_total);
+};

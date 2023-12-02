@@ -1,0 +1,30 @@
+define main = function(arguments: **, argument_count: whole_8) {
+    variable input_file = *.>(+(arguments, 8));
+    variable allocator = BrkAllocator();
+    variable contents = read_file(input_file, &(allocator));
+
+    variable max_total = 0;
+    variable current_total = 0;
+
+    variable string_array = String.split_to_array(&(contents), &(allocator), ASCII.NEWLINE);
+    variable array = string_array_to_whole_8_array(string_array, &(allocator));
+
+    variable i = 0;
+    while <(i, Whole8Array.length(&(array))) {
+        variable item = Whole8Array.get(&(array), i);
+
+        if >(item, 0) {
+            current_total = +(current_total, item);
+        } else {
+            current_total = 0;
+        };
+
+        if >(current_total, max_total) {
+            max_total = current_total;
+        };
+
+        i = +(i, 1);
+    };
+
+    println_whole_8(max_total);
+};

@@ -1,0 +1,39 @@
+define main = function(arguments: **, argument_count: whole_8) {
+    variable input_file = *.>(+(arguments, 8));
+    variable allocator = BrkAllocator();
+    variable contents = read_file(input_file, &(allocator));
+
+    variable max_total1 = 0;
+    variable max_total2 = 0;
+    variable max_total3 = 0;
+
+    variable current_total = 0;
+
+    variable string_array = String.split_to_array(&(contents), &(allocator), ASCII.NEWLINE);
+    variable array = string_array_to_whole_8_array(string_array, &(allocator));
+
+    variable i = 0;
+    while <(i, Whole8Array.length(&(array))) {
+        variable item = Whole8Array.get(&(array), i);
+
+        if >(item, 0) {
+            current_total = +(current_total, item);
+        } else {
+            if |(>(current_total, max_total1), |(>(current_total, max_total2), >(current_total, max_total3))) {
+                // less than or equal to would probably be nice
+                if &&(<(max_total1, +(max_total2, 1)), <(max_total1, +(max_total3, 1))) {
+                    max_total1 = current_total;
+                } else if &&(<(max_total2, +(max_total1, 1)), <(max_total2, +(max_total3, 1))) {
+                    max_total2 = current_total;
+                } else if &&(<(max_total3, +(max_total1, 1)), <(max_total3, +(max_total2, 1))) {
+                    max_total3 = current_total;
+                };
+            };
+            current_total = 0;
+        };
+
+        i = +(i, 1);
+    };
+
+    println_whole_8(+(+(max_total1, max_total2), max_total3));
+};
