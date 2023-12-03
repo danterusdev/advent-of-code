@@ -5,5 +5,6 @@
 | --- | ------ | ------ | -------- |
 |  1  | ~5:00  | ~15:00 |    Go    |
 |  2  |  7:45  | 10:44  |  Python  |
+|  2  |  26:46 | 31:15  |  Python  |
 
-> All timed independently because I usually do them the day after
+> Some timed independently because I don't always do them at release
