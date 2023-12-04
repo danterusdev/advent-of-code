@@ -1,10 +1,11 @@
 # Advent of Code 2023
 
 ## Stats
-| Day | Part A | Part B | Language |
-| --- | ------ | ------ | -------- |
-|  1  | ~5:00  | ~15:00 |    Go    |
-|  2  |  7:45  | 10:44  |  Python  |
-|  2  |  26:46 | 31:15  |  Python  |
+| Day | Part A | Part B | Language | Notes |
+| --- | ------ | ------ | -------- | -------------- |
+|  1  | ~5:00  | ~15:00 |    Go    | None |
+|  2  |  7:45  | 10:44  |  Python  | None |
+|  3  |  26:46 | 31:15  |  Python  | Killed by off-by-one errors |
+|  4  |  3:29  | 21:51  |  Python  | Did not think about the algorith for pt b, luckily was saved by @cache |
 
 > Some timed independently because I don't always do them at release
