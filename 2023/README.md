@@ -10,5 +10,6 @@
 |  5  | 15:54  |1:29:54 |  Python  | Killed by range math |
 |  6  | 7:59   | 10:48  |  Python  | Just slow |
 |  7  | 28:14  |1:09:24 |  Python  | Killed by math again, probably bad implementation too |
+|  7  | 05:11  |1:37:03 |  Python  | What??? |
 
 > Some timed independently because I don't always do them at release
