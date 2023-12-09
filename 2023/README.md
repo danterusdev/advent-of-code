@@ -10,6 +10,7 @@
 |  5  | 15:54  |1:29:54 |  Python  | Killed by range math |
 |  6  | 7:59   | 10:48  |  Python  | Just slow |
 |  7  | 28:14  |1:09:24 |  Python  | Killed by math again, probably bad implementation too |
-|  7  | 05:11  |1:37:03 |  Python  | What??? |
+|  8  | 05:11  |*1:37:03|  Python  | Used a hint to solve this one (part 2), though the hidden guarantee justifies it in my head |
+|  9  | 09:28  |  11:26 |  Python  | A little slow to understand the problem, but overall very quick and easy |
 
 > Some timed independently because I don't always do them at release
