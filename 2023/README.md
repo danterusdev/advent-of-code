@@ -13,5 +13,6 @@
 |  8  | 05:11  |*1:37:03|  Python  | Used a hint to solve this one (part 2), though the hidden guarantee justifies it in my head |
 |  9  | 09:28  |  11:26 |  Python  | A little slow to understand the problem, but overall very quick and easy |
 | 10  | 36:37  |1:06:24 |  Python  | Small bug that cost me a bit of time in part1, part2 took a while to come up with an initial solution, but once I did, it worked first try, overall good |
+| 11  | 10:57  |  28:16 |  Python  | Lost around 10 mins on part two because I confused x and y |
 
 > Some timed independently because I don't always do them at release
