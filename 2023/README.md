@@ -16,5 +16,6 @@
 | 11  | 10:57  |  28:16 |  Python  | Lost around 10 mins on part two because I confused x and y |
 | 12  | 32:45  |2:05:38 |  Python  | Had no idea what to do for part 2, still don't really understand it |
 | 13  | 48:46  |1:43:43 |  Python  | Definitely was not using the most simple algorithm |
+| 14  | 15:51  |1:35:12 |  Python  | Pretty bad, should have put more focus into testing earlier |
 
 > Some timed independently because I don't always do them at release
