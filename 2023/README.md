@@ -18,5 +18,6 @@
 | 13  | 48:46  |1:43:43 |  Python  | Definitely was not using the most simple algorithm |
 | 14  | 15:51  |1:35:12 |  Python  | Pretty bad, should have put more focus into testing earlier |
 | 15  | 03:19  | 21:04  |  Python  | Pretty good, however took forever to understand part2 and even when I thought I did, I didn't |
+| 16  | 19:58  | 30:06  |  Python  | Relatively clean day, but made some silly mistakes for part 2 which cost me 3-4 mins |
 
 > Some timed independently because I don't always do them at release
