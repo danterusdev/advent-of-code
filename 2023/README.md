@@ -19,6 +19,6 @@
 | 14  | 15:51  |1:35:12 |  Python  | Pretty bad, should have put more focus into testing earlier |
 | 15  | 03:19  | 21:04  |  Python  | Pretty good, however took forever to understand part2 and even when I thought I did, I didn't |
 | 16  | 19:58  | 30:06  |  Python  | Relatively clean day, but made some silly mistakes for part 2 which cost me 3-4 mins |
-| 17  |2:32:10 |3:01:51 |  Python  | Took forever to get the intuition to solve this problem in any way, eventually came up with a very slow solution, but it works |
+| 17  |2:14:00 |2:43:41 |  Python  | Took forever to get the intuition to solve this problem in any way, eventually came up with a very slow solution, but it works |
 
 > Some timed independently because I don't always do them at release
