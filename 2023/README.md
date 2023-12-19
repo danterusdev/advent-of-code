@@ -21,5 +21,6 @@
 | 16  | 19:58  | 30:06  |  Python  | Relatively clean day, but made some silly mistakes for part 2 which cost me 3-4 mins |
 | 17  |2:14:00 |2:43:41 |  Python  | Took forever to get the intuition to solve this problem in any way, eventually came up with a very slow solution, but it works |
 | 18  | 39:30  |2:31:24 |  Python  | Just a hard problem, took a while to conceptualize a working solution |
+| 19  | 21:54  | 38:49  |  Python  | My best performance yet, a little slow on the coding due to being methodical, but very clean |
 
 > Some timed independently because I don't always do them at release
