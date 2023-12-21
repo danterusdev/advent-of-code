@@ -23,5 +23,6 @@
 | 18  | 39:30  |2:31:24  |  Python  | Just a hard problem, took a while to conceptualize a working solution |
 | 19  | 21:54  | 38:49   |  Python  | My best performance yet, a little slow on the coding due to being methodical, but very clean |
 | 20  | 58:07  |*11:16:59|  Python  | Had no idea how to solve part 2, turns out it was another hidden guarantee (found through looking at a solution), I really do not like those |
+| 21  | 11:26  |*12:46:28|  Python  | Came up with the idea for part 2 quite quickly, however made many small mistakes in implementation |
 
 > Some timed independently because I don't always do them at release
