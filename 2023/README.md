@@ -25,6 +25,7 @@
 | 20  | 58:07  |*11:16:59|  Python  | Had no idea how to solve part 2, turns out it was another hidden guarantee (found through looking at a solution), I really do not like those |
 | 21  | 11:26  |*12:46:28|  Python  | Came up with the idea for part 2 quite quickly, however made many small mistakes in implementation |
 | 22  | 21:08  | 36:55   |  Python  | My new best performance, struggled a little on part 2, just dumb mistakes, but 101st (8 seconds away from scoring my first AOC points) and 217th are my two best placements so far |
-| 22  | 36:28  |2:48:26  |  Python  | Took a while to figure out part 1, and then took even longer to figure out what was needed for part 2 |
+| 23  | 36:28  |2:48:26  |  Python  | Took a while to figure out part 1, and then took even longer to figure out what was needed for part 2 |
+| 24  | 59:15  |*14:19:15|  Python  | One of my favorite days, despite it being very difficult, was trying to do a lot of math by myself, eventually gave in and just used a solver, not sure how else it could be solved. |
 
 > Some timed independently because I don't always do them at release
