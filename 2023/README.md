@@ -27,6 +27,6 @@
 | 22  | 21:08  | 36:55   |  Python  | My new best performance, struggled a little on part 2, just dumb mistakes, but 101st (8 seconds away from scoring my first AOC points) and 217th are my two best placements so far |
 | 23  | 36:28  |2:48:26  |  Python  | Took a while to figure out part 1, and then took even longer to figure out what was needed for part 2 |
 | 24  | 59:15  |*14:19:15|  Python  | One of my favorite days, despite it being very difficult, was trying to do a lot of math by myself, eventually gave in and just used a solver, not sure how else it could be solved. |
-| 25  |1:34:45 |  -----  |  Python  | Had to resolve to using an external library again, will need to go back and figure out how to do these myself |
+| 25  |1:34:45 |  -----  |  Python  | Had to resolve to using an external library again, will need to go back and figure out how to do these myself. Edit: I was actually very close to solving it without a library before I gave up, and now it works, though very slowly (around 45s for my input) |
 
 > Some timed independently because I don't always do them at release
